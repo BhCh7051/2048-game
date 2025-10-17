@@ -19,7 +19,7 @@
           transform: scale(1);
         }
         50% {
-          transform: scale(1.25);
+          transform: scale(1.2);
         }
         100% {
           transform: scale(1);
@@ -27,12 +27,11 @@
       }
       .animate-merge {
         animation: merge 200ms ease-in-out;
-        z-index: 20;
       }
       @keyframes appear {
         from {
-          transform: scale(0.3);
-          opacity: 0.3;
+          transform: scale(0.5);
+          opacity: 0.5;
         }
         to {
           transform: scale(1);
@@ -44,21 +43,14 @@
       }
       @keyframes slide {
         from {
-          transform: translate(0, 0);
+          transform: translateX(var(--slide-distance, 0%));
         }
         to {
-          transform: translate(var(--translate-x, 0), var(--translate-y, 0));
+          transform: translateX(0%);
         }
       }
       .animate-slide {
-        animation: slide 150ms ease-out;
-      }
-      /* Enhanced tile styling */
-      .tile-shadow {
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      }
-      .tile-shadow:hover {
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        animation: slide 200ms ease-in-out;
       }
     </style>
 
@@ -72,9 +64,9 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/2048-game/assets/index-hV7GC183.js"></script>
+  <script type="module" crossorigin src="/2048-game/assets/index-C48xpfRT.js"></script>
 </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
   </body>
 </html>
