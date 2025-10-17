@@ -1,0 +1,5 @@
+{
+  "name": "2048 Game",
+  "description": "A fully functional and visually appealing implementation of the popular 2048 game, built with React and Tailwind CSS. Players can slide tiles to merge them, aiming to reach the 2048 tile. The game features a configurable board size, score tracking, and smooth animations.",
+  "requestFramePermissions": []
+}
